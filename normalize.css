@@ -1,0 +1,166 @@
+/********************************************************************
+I declare that my assignment is wholly my own work in accordance with Seneca Academic Policy. No part of this assignment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the BTI225 instructors and / or made available in this assignment for my use.
+I also declare that no part of this assignment has been distributed to other students.
+Name: Wajeeh Sheikh
+Student ID: 116963166
+Dated: August 10/2020
+
+********************************************************************/
+  html {
+    height: 100%;
+  }
+
+/* The Header */
+
+  .header {
+    
+    padding: 10px; 
+    text-align: center; 
+    background: #61892f; 
+    color: white; 
+  }
+  
+  .header h1 {
+    font-size: 40px;
+  }
+
+    /* Content */
+
+  body {
+  
+    height: 100%;
+	  margin: 0;
+  }
+
+
+  .container {
+    
+    height: 100%;
+  } 
+  .main {
+     
+    font-size: 20px; 
+    float: right;
+	  width: 80%;
+    height: 100%;
+    background-color: #222629;
+    color: aliceblue;
+   
+  }
+
+  .content {
+  background-color: #222629;
+  padding: 50px 100px;
+ }
+
+/* Nav Bar */
+  .sidenav {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: #6b6e70;
+  }
+ 
+  ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    list-style: none;
+    border-bottom: 1px solid white;
+    padding-left: 30px;
+    line-height: 60px;
+  }
+  
+  ul li:first-child {
+    border-top: 1px solid white;
+  }
+  
+  ul li:hover {
+    background-color: #86c232;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 60px;
+    text-align: center;
+  }
+
+  /* FORM */
+  form {
+    margin-top: -8%;
+    width: 85%;
+    background: #fff;
+    padding: 30px 60px 60px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    height: 100%;
+    color: #222629;
+}
+label {
+    display: block;
+    margin-bottom: 5px
+}
+label i {
+    color: #999;
+    font-size: 80%;
+}
+input, select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.row {
+    padding-bottom: 10px;
+}
+.form-inline {
+    border: 1px solid #ccc;
+    padding: 8px 10px 4px;
+    border-radius: 2px;
+}
+.form-inline label, .form-inline input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+}
+#error {
+    color: rgb(233, 62, 62);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: #006dcc;
+    border-color: #016BC1;
+    box-shadow: 0 3px 0 #0165b6;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background: #0165b6;
+}
+
+
+  /* Footer */
+
+  footer {
+    
+    width: 100%;
+    height: 20px;
+    padding: 20px; 
+    text-align: center; 
+    background: #ddd; 
+    
+  }
+
+

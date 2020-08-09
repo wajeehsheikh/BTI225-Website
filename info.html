@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <title>Wajeeh Sheikh</title>
+ 
+   <link rel='stylesheet' href='normalize.css' type='text/css' media='screen'>
+    <script src="info.js"></script>
+</head>
+<body>   
+
+    <div class="header">
+        <h1>Welcome To Wajeehs Website</h1>
+        <h3></h3>
+    </div>
+
+    <div class="container">
+    
+    <div class="sidenav">
+    
+    <ul>
+        
+        <li><a href="honesty.html">Home</a></li>
+        <li><a href="info.html">Info</a></li>
+        <li><a href="reflection.html">Reflection</a></li>
+    </ul>   
+    
+    <div id="error"></div>
+    </div>
+    
+    <div class="main">
+        <div class="content"></div>
+        
+            <form name="register" action="https://httpbin.org/post" method="POST">
+                <h2>Sign Up</h2>
+
+                <input type="hidden" name="lastName" id="lastName" value="Sheikh" />
+                <input type="hidden" name="studentId" id="studentId" value="116963166" />
+                
+                <div class="row">
+                    <label>Fist Name</label>
+                    <input id="fname" type="text" name="firstName" required>
+        
+                    <label>Last Name</label>
+                    <input id="lname" type="text" name="lastNamee" required>
+                    
+                </div>
+                <div class="row">
+                    <label>User Name</label>
+                    <input id="uname" type="text" name="uname">
+                 
+                </div>
+                <div class="row">
+                    <label>Password</label>
+                    <input id="password" type="password" name="password" required>
+                    
+                </div>
+                <div class="row">
+                    <label>Confirm Password</label>
+                    <input id="confirmPass" type="password" name="password" required>
+                   
+                </div>
+
+                <div class="row">
+                    <label>EducationLevel:</label>
+                    <select name="eduLevel" required>
+                        <option>Select</option>
+                        <option>Technical Diploma</option>
+                        <option>College Diploma</option>
+                        <option>Bachelor's Degree</option>
+                        <option>Master's Degree</option>
+                        <option>Others</option>
+                    </select>
+                    
+                </div>
+
+                <div class="row">
+                    <label>Education Status</label>
+                    <div class="form-inline">
+                       
+                        <label><input type="radio" name="edu" value="Graduated"> Graduated</label>
+                        <label><input type="radio" name="edu" value="Current enrolled"> Current enrolled</label>
+                        <label><input type="radio" name="edu" value="Did not graduate"> Did not graduate</label>
+
+                    </div>
+                 
+                </div>
+
+                <div class="row">
+                    <label>Email Address</label>
+                    <input type="email" name="email" required>
+              
+                </div>
+
+                <div class="row">
+                    <label>Age</label>
+                    <div class="form-inline">
+                        <input type="number" name="Age" max="60" min="18" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" onclick= "formValidation()" value="Submit">
+                </div>
+            </form>
+            
+    </div>
+    </div>
+    </div>
+
+  
+<div>   
+    <footer>
+        <b></b>
+        <div>©2020 - Wajeeh Sheikh </div> 
+    </footer>
+</div>
+
+</body>
+</html>
